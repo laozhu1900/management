@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Management</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.jar.web.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.jar.web.controller.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/servlet/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ImageServlet</servlet-name>
+    <servlet-class>com.jar.web.controller.ImageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ImageServlet</servlet-name>
+    <url-pattern>/servlet/ImageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ListUserServlet</servlet-name>
+    <servlet-class>com.jar.web.controller.ListUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListUserServlet</servlet-name>
+    <url-pattern>/servlet/ListUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SearchCustomerServlet</servlet-name>
+    <servlet-class>com.jar.web.controller.SearchCustomerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchCustomerServlet</servlet-name>
+    <url-pattern>/servlet/SearchCustomerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AddCustomerServlet</servlet-name>
+    <servlet-class>com.jar.web.controller.addCustomerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddCustomerServlet</servlet-name>
+    <url-pattern>/servlet/AddCustomerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ListCustomerServlet</servlet-name>
+    <servlet-class>com.jar.web.controller.ListCustomerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListCustomerServlet</servlet-name>
+    <url-pattern>/servlet/ListCustomerServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>EditUserServlet</servlet-name>
+    <servlet-class>com.jar.web.controller.EditUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditUserServlet</servlet-name>
+    <url-pattern>/servlet/EditUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>EditServlet</servlet-name>
+    <servlet-class>com.jar.web.controller.EditServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditServlet</servlet-name>
+    <url-pattern>/servlet/EditServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DelUserServlet</servlet-name>
+    <servlet-class>com.jar.web.controller.DelUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DelUserServlet</servlet-name>
+    <url-pattern>/servlet/DelUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>EditCustomerServlet</servlet-name>
+    <servlet-class>com.jar.web.controller.EditCustomerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditCustomerServlet</servlet-name>
+    <url-pattern>/servlet/EditCustomerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DelCustomerServlet</servlet-name>
+    <servlet-class>com.jar.web.controller.DelCustomerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DelCustomerServlet</servlet-name>
+    <url-pattern>/servlet/DelCustomerServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>SearchCustomerByTypeServlet</servlet-name>
+    <servlet-class>com.jar.web.controller.SearchCustomerByTypeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchCustomerByTypeServlet</servlet-name>
+    <url-pattern>/servlet/SearchCustomerByTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SearchCustomerByLevelServlet</servlet-name>
+    <servlet-class>com.jar.web.controller.SearchCustomerByLevelServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchCustomerByLevelServlet</servlet-name>
+    <url-pattern>/servlet/SearchCustomerByLevelServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+</web-app>
